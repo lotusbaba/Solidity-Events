@@ -22,4 +22,4 @@ The Web3 RPC location needs to be updated within `truffle.js` file.
   - Check from ganache-cli or Ganache 2 where the contract was deployed and update app.js with the address. I have used ganache 2 deployed address - contractInstance = AuctionContract.at('0x9365674714f2e96018be0c6fab35c4f396863298');
   - `truffle migrate` - Migrates the contract Auction.sol to the testnet
   - Open index.html in a browser and after 3 seconds see the highest bid
-  - :)
+  - Thanks to blog post by Raghav Dua, I just turned it into a working code https://medium.com/@theMadKing/watching-solidity-events-the-right-way-d3d0a30bdc4d :)
