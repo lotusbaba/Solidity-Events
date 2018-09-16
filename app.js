@@ -1,4 +1,5 @@
 window.onload = function () {
+
   web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:7545"));
   let accounts = web3.eth.accounts; //create local variable for easy access
   let maxBid = Math.ceil (Math.random () * 1000); //the maximum bid placed by the end of the auction
